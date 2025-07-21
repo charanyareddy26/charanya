@@ -9,7 +9,7 @@ function App() {//file name m& fn name must be same//
   return (
     <div className= 'dept'> 
     Computer science & engineering <br/>
-    JAYASREE 2400031726
+    CHARANYA 2400032523
    <label className='depit'> Information Technology</label>
   </div>
    

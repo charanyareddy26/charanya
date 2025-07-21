@@ -1,18 +1,17 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
-import Mygame from './Mygame.jsx'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Welcome from './Welcome.jsx'
 
-createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-  <Routes>
-    <Route path="app" element={<App/>}></Route>
-    <Route
-   path='mygame' element={<Mygame/>}></Route>
-   <Route path='/' element={<Welcome/>}></Route>
-   </Routes>
+import ReactDOM from 'react-dom/client';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import App from './App';
+import Mygame from './Mygame';
+import Welcome from './Welcome';
+import './index.css'
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <BrowserRouter basename='p001'>
+    <Routes>
+      <Route path="/" element={<Welcome />} />
+      <Route path="app" element={<App />} />
+      <Route path="mygame" element={<Mygame />} />
+    </Routes>
   </BrowserRouter>
-)
+);
