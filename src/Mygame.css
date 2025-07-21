@@ -1,0 +1,33 @@
+.myInfo {
+  width: 500px;
+  height: auto; /* allow it to grow */
+  background-color: blueviolet;
+
+  /* center of screen */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+  padding: 20px;
+  text-align: center;
+
+/*Allocate a space on all 4 sides*/
+
+  padding: 10px;
+
+  
+}
+
+.pic {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.tab {
+  width: 100%;
+  margin-top: 20px;
+  color: white;
+}
+
