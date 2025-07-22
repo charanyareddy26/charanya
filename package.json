@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://charanyareddy26.github.io/p001",
+  "homepage": "https://charanyareddy26.github.io/charanya",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

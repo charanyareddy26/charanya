@@ -7,7 +7,7 @@ import Welcome from './Welcome';
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename='p001'>
+  <BrowserRouter basename='charanya'>
     <Routes>
       <Route path="/" element={<Welcome />} />
       <Route path="app" element={<App />} />
