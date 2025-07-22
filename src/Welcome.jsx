@@ -9,7 +9,7 @@ class Welcome extends Component {
             <div>
                 <h1>Welcome Page</h1>
                 <Link to="/app">App</Link> <br/>
-                <Link to="/myapp">MyApp</Link>
+                <Link to="/mygame">Mygame</Link>
             </div>
         );
     }
